@@ -7,17 +7,21 @@
     <title>CV</title>
     <style>
          .container {
-            width: 1000px;
+            width: 800px;
+            height: 1000px;
             border: solid 2px black;
             margin: auto;
             margin-top: 10px;
             margin-bottom: 20px;
         }
-        h3, ul, .profil {
-            margin-left: 150px;
-        }
-        h1 {
-            text-align: center;
+        /* h3, ul, .profil {
+            margin-left: 100px;
+        } */
+        .box {
+            background: green;
+            width: 700px;
+            margin: auto;
+            margin-top: 30px;
         }
         span {
             display: inline-block;
@@ -34,22 +38,50 @@
             width: 100px;
             height: 100px;
         }
+        .profil {
+            margin-right: 150px;
+        }
         span {
             display: inline-block;
-            margin-right: 100px;
+            margin-left: 10px;
+        }
+        h2 {
+            border: 1px solid green;
+            width: 300px;
+            color: green;
+            text-align: center;
+        }
+        h3 {
+            margin-bottom: 0px;
+        }
+        p {
+            margin-top: 0px;
+        }
+        .box2 {
+            width: 300px;
+            margin-left: 50px;
+        }
+        UL li {
+            text-decoration: none;
+        }
+        section {
+            display: inline-block;
+        }
+        .section {
+            float: right;
+            margin-right: 50px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <article>
-            <h1>Curcilum Vitae</h1>
-            <div>
+            <div class="box">
                 <span>
                     <img class="profil" src="img1.jpg" alt="img1">
                 </span>
                 <span>
-                    <h2>RATSIMBARISON Mamisoa</h2>
+                    <h1>RATSIMBARISON Mamisoa</h1>
                     <p>
                         Lot ano o6 Ansapadarano <br>
                         anjaniainamamisoa@gmail.com <br>
@@ -57,34 +89,77 @@
                     </p>
                 </span>
             </div>
-            <h3>Experience</h3>
-            <ul>
-                <li>stage mobile (techno: react native)</li>
-                <li>project perso (techno: html, css, PHP)lien gihub: <a href="https://github.com/mams97/I-Verb">https://github.com/mams97/I-Verb</a> </li>
-            </ul>
-            <h3>Formation</h3>
-            <ul>
-                <li>Diplôme de techicien Supérieur à ISIME Betogolos</li>
-                <li>Baccalauréat à LP MASCA SabNam</li>
-            </ul>
-            <h3>Conpéences</h3>
-            <ul>
-                <li>Travail en équpe</li>
-                <li>Autonomie</li>
-                <li>Sérieux</li>
-            </ul>
-            <h3>Logiciels</h3>
-            <ul>
-                <li>Word</li>
-                <li>Excel</li>
-                <li>Photoshop</li>
-            </ul>
-            <h3>Langagues</h3>
-            <ul>
-                <li>Malagasy</li>
-                <li>Français</li>
-                <li>Anglais</li>
-            </ul>
+            <section>
+                <div class="box2">
+                    <h2>OBJECTIF</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nisi quibusdam eos. Modi dicta quod reprehenderit dignissimos!</p>
+                </div>
+                <div class="box2">
+                    <h2>EDUCATION</h2>
+                    <h3>Universié bilda</h3>
+                    <p>
+                        <span style="color: gray;">2020</span><br>
+                        Doctora en biotechnologie
+                    </p>
+                    <h3>Universié bilda</h3>
+                    <p>
+                        <span style="color: gray;">2015</span><br>
+                        Master
+                    </p>
+                    <h3>Universié bilda</h3>
+                    <p>
+                        <span style="color: gray;">2013</span><br>
+                        Licence
+                    </p>
+                    <h3>Universié bilda</h3>
+                    <p>
+                        <span style="color: gray;">2010</span><br>
+                        Baccalauréat en science 
+                    </p>
+                </div>
+                <div class="box2">
+                    <h2>FORMATION</h2>
+                    <p>
+                        Formation 1
+                        <span style="color: gray;">Septembre - janvier 2021</span>
+                    </p>
+                    <p>
+                        Formation 2
+                        <span style="color: gray;"> Août - Septembre 2019</span>
+                    </p>
+                    <p>
+                        Formation 3
+                        <span style="color: gray;">Janvier - Mars 2020</span></p>
+                </div>
+            </section>
+            <section class=" section">
+                <div class="box2">
+                    <h2>COMPETENCES</h2>
+                    <ul>
+                        <li>Word</li>
+                        <li>Exel</li>
+                        <li>PowerPoint</li>
+                    </ul>
+                </div>
+                <div class="box2">
+                    <h2>LANGUE</h2>
+                    <ul>
+                        <li>Arabe</li>
+                        <li>Français</li>
+                        <li>Anglais</li>
+                    </ul>
+                </div>
+                <div class="box2">
+                    <h2>INTERES</h2>
+                    <ul>
+                        <li>Sports</li>
+                        <li>Theatre</li>
+                        <li>Cinéma</li>
+                    </ul>
+                </div>
+            </section>
+
+
         </article>
     </div>
     <div>
